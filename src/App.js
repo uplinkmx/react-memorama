@@ -61,13 +61,13 @@ const Memoria = (props) => {
 
         if(x === ''){
           x = event.target.id;
-          console.log(x)
+
         }else{
           y = event.target.id;
           document.getElementById(event.target.id).disabled = true;
         
           for (const [key, value] of Object.entries(data)) {
-            console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
+            //console.log(`${key} ${value}`); 
             if(x === key && y === value ){
               find = true;
               console.log('ya encontramos un pais y su capital');
@@ -86,6 +86,7 @@ const Memoria = (props) => {
             document.getElementById(y).style.display = "none";
             x = ''
             y = ''
+            find = false;
           }else{
             document.getElementById(x).disabled = false;
             document.getElementById(y).disabled = false;
