@@ -24,8 +24,7 @@ const Saludos = (props) => {
   )
 }
 
-const data = {"Afganistán":"Kabul","Albania":"Tirana","Alemania":"Berlín","Andorra":"Andorra la Vieja","Angola":"Luanda","Antigua y Barbuda":"Saint John's","Arabia Saudita":"Riad","Argelia":"Argel","Argentina":"Buenos Aires","Armenia":"Ereván","Australia":"Canberra","Austria":"Viena","Azerbaiyán":"Bakú","Bahamas":"Nasáu","Baréin":"Manama","Bangladesh":"Daca","Barbados":"Bridgetown","Bélgica":"Bruselas","Belice":"Belmopán","Benín":"Porto-Novo","Bielorrusia":"Minsk","Bolivia":"Sucre","Bosnia y Herzegovina":"Sarajevo","Botsuana":"Gaborone","Brasil":"Brasilia","Brunéi":"Bandar Seri Begawan","Bulgaria":"Sofía","Burkina Faso":"Uagadugú","Burundi":"Buyumbura","Bután":"Timbu","Cabo Verde":"Praia","Camboya":"Phnom Penh","Camerún":"Yaundé","Canadá":"Ottawa","República Centroafricana":"Bangui","Chad":"Yamena","República Checa":"Praga","Chile":"Santiago de Chile","China":"Pekín","Chipre":"Nicosia","Colombia":"Bogotá","Comoras":"Moroni","República del Congo":"Brazzaville","República Democrática del Congo":"Kinsasa","Corea del Norte":"Pionyang","Corea del Sur":"Seúl","Costa de Marfil":"Yamusukro","Costa Rica":"San José","Croacia":"Zagreb","Cuba":"La Habana","Dinamarca":"Copenhague","Dominica":"Roseau","República Dominicana":"Santo Domingo","Ecuador":"Quito","Egipto":"El Cairo","El Salvador":"San Salvador","Emiratos Árabes Unidos":"Abu Dabi","Eritrea":"Asmara","Eslovaquia":"Bratislava","Eslovenia":"Liubliana","España":"Madrid","Estados Unidos":"Washington D. C.","Estonia":"Tallin","Etiopía":"Adís Abeba","Filipinas":"Manila","Finlandia":"Helsinki","Fiyi":"Suva","Francia":"París","Gabón":"Libreville","Gambia":"Banjul"};
-//,"Georgia":"Tiflis","Ghana":"Acra","Granada":"Saint George's","Grecia":"Atenas","Guatemala":"Ciudad de Guatemala","Guinea":"Conakry","Guinea-Bissau":"Bissau","Guinea Ecuatorial":"Malabo","Guyana":"Georgetown","Haití":"Puerto Príncipe","Honduras":"Tegucigalpa","Hungría":"Budapest","India":"Nueva Delhi","Indonesia":"Yakarta","Irán":"Teherán","Iraq":"Bagdad","Irlanda":"Dublín","Islandia":"Reikiavik","Israel":"Jerusalén","Italia":"Roma","Jamaica":"Kingston","Japón":"Tokio","Jordania":"Amán","Kazajistán":"Astaná","Kenia":"Nairobi","Kirguistán":"Biskek","Kiribati":"Tarawa","Kuwait":"Ciudad de Kuwait","Laos":"Vientián","Lesoto":"Maseru","Letonia":"Riga","Líbano":"Beirut","Libia":"Trípoli","Liechtenstein":"Vaduz","Lituania":"Vilna","Luxemburgo":"Luxemburgo","República de Macedonia":"Skopie","Madagascar":"Antananarivo","Malaui":"Lilongüe","Malasia":"Kuala Lumpur","Maldivas":"Malé","Malí":"Bamako","Malta":"La Valeta","Marruecos":"Rabat","Islas Marshall":"Majuro","Mauricio":"Port Louis","Mauritania":"Nuakchot","México":"Ciudad de México","Micronesia":"Palikir","Moldavia":"Chisinau","Mónaco":"Mónaco","Mongolia":"Ulán Bator","Montenegro":"Podgorica","Mozambique":"Maputo","Birmania":"Naipyidó","Namibia":"Windhoek","Nauru":"Yaren","Nepal":"Katmandú","Nicaragua":"Managua","Níger":"Niamey","Nigeria":"Abuya","Noruega":"Oslo","Nueva Zelanda":"Wellington","Omán":"Mascate","Países Bajos":"Ámsterdam","Pakistán":"Islamabad","Palaos":"Melekeok","Panamá":"Panamá","Papúa Nueva Guinea":"Port Moresby","Paraguay":"Asunción","Perú":"Lima","Polonia":"Varsovia","Portugal":"Lisboa","Qatar":"Doha","Reino Unido":"Londres","Ruanda":"Kigali","Rumania":"Bucarest","Rusia":"Moscú","Islas Salomón":"Honiara","Samoa":"Apia","San Cristóbal y Nieves":"Basseterre","San Marino":"Ciudad de San Marino","Santa Lucía":"Castries","Santo Tomé y Príncipe":"Santo Tomé","San Vicente y las Granadinas":"Kingstown","Senegal":"Dakar","Serbia":"Belgrado","Seychelles":"Victoria","Sierra Leona":"Freetown","Singapur":"Singapur","Siria":"Damasco","Somalia":"Mogadiscio","Sri Lanka":"Sri Jayawardenapura Kotte","Suazilandia":"Mbabane","Sudáfrica":"Ciudad del Cabo","Sudán":"Jartum","Suecia":"Estocolmo","Suiza":"Berna","Surinam":"Paramaribo","Tailandia":"Bangkok","Tanzania":"Dodoma","Tayikistán":"Dusambé","Timor Oriental":"Dili","Togo":"Lomé","Tonga":"Nukualofa","Trinidad y Tobago":"Puerto España","Túnez":"Túnez","Turkmenistán":"Asjabad","Turquía":"Ankara","Tuvalu":"Funafuti","Ucrania":"Kiev","Uruguay":"Montevideo","Uzbekistán":"Taskent","Vanuatu":"Port Vila","Ciudad del Vaticano":"Ciudad del Vaticano","Venezuela":"Caracas","Vietnam":"Hanói","Yemen":"Saná","Yibuti":"Yibuti","Zambia":"Lusaka","Zimbabue":"Harare"};
+const data = {"Afganistán":"Kabul","Albania":"Tirana","Alemania":"Berlín","Andorra":"Andorra la Vieja","Angola":"Luanda","Antigua y Barbuda":"Saint John's","Arabia Saudita":"Riad","Argelia":"Argel","Argentina":"Buenos Aires","Armenia":"Ereván","Australia":"Canberra","Austria":"Viena","Azerbaiyán":"Bakú","Bahamas":"Nasáu","Baréin":"Manama","Bangladesh":"Daca","Barbados":"Bridgetown","Bélgica":"Bruselas","Belice":"Belmopán","Benín":"Porto-Novo","Bielorrusia":"Minsk","Bolivia":"Sucre","Bosnia y Herzegovina":"Sarajevo","Botsuana":"Gaborone","Brasil":"Brasilia","Brunéi":"Bandar Seri Begawan","Bulgaria":"Sofía","Burkina Faso":"Uagadugú","Burundi":"Buyumbura","Bután":"Timbu","Cabo Verde":"Praia","Camboya":"Phnom Penh","Camerún":"Yaundé","Canadá":"Ottawa","República Centroafricana":"Bangui","Chad":"Yamena","República Checa":"Praga","Chile":"Santiago de Chile","China":"Pekín","Chipre":"Nicosia","Colombia":"Bogotá","Comoras":"Moroni","República del Congo":"Brazzaville","República Democrática del Congo":"Kinsasa","Corea del Norte":"Pionyang","Corea del Sur":"Seúl","Costa de Marfil":"Yamusukro","Costa Rica":"San José","Croacia":"Zagreb","Cuba":"La Habana","Dinamarca":"Copenhague","Dominica":"Roseau","República Dominicana":"Santo Domingo","Ecuador":"Quito","Egipto":"El Cairo","El Salvador":"San Salvador","Emiratos Árabes Unidos":"Abu Dabi","Eritrea":"Asmara","Eslovaquia":"Bratislava","Eslovenia":"Liubliana","España":"Madrid","Estados Unidos":"Washington D. C.","Estonia":"Tallin","Etiopía":"Adís Abeba","Filipinas":"Manila","Finlandia":"Helsinki","Fiyi":"Suva","Francia":"París","Gabón":"Libreville","Gambia":"Banjul","Georgia":"Tiflis","Ghana":"Acra","Granada":"Saint George's","Grecia":"Atenas","Guatemala":"Ciudad de Guatemala","Guinea":"Conakry","Guinea-Bissau":"Bissau","Guinea Ecuatorial":"Malabo","Guyana":"Georgetown","Haití":"Puerto Príncipe","Honduras":"Tegucigalpa","Hungría":"Budapest","India":"Nueva Delhi","Indonesia":"Yakarta","Irán":"Teherán","Iraq":"Bagdad","Irlanda":"Dublín","Islandia":"Reikiavik","Israel":"Jerusalén","Italia":"Roma","Jamaica":"Kingston","Japón":"Tokio","Jordania":"Amán","Kazajistán":"Astaná","Kenia":"Nairobi","Kirguistán":"Biskek","Kiribati":"Tarawa","Kuwait":"Ciudad de Kuwait","Laos":"Vientián","Lesoto":"Maseru","Letonia":"Riga","Líbano":"Beirut","Libia":"Trípoli","Liechtenstein":"Vaduz","Lituania":"Vilna","Luxemburgo":"Luxemburgo","República de Macedonia":"Skopie","Madagascar":"Antananarivo","Malaui":"Lilongüe","Malasia":"Kuala Lumpur","Maldivas":"Malé","Malí":"Bamako","Malta":"La Valeta","Marruecos":"Rabat","Islas Marshall":"Majuro","Mauricio":"Port Louis","Mauritania":"Nuakchot","México":"Ciudad de México","Micronesia":"Palikir","Moldavia":"Chisinau","Mónaco":"Mónaco","Mongolia":"Ulán Bator","Montenegro":"Podgorica","Mozambique":"Maputo","Birmania":"Naipyidó","Namibia":"Windhoek","Nauru":"Yaren","Nepal":"Katmandú","Nicaragua":"Managua","Níger":"Niamey","Nigeria":"Abuya","Noruega":"Oslo","Nueva Zelanda":"Wellington","Omán":"Mascate","Países Bajos":"Ámsterdam","Pakistán":"Islamabad","Palaos":"Melekeok","Panamá":"Panamá","Papúa Nueva Guinea":"Port Moresby","Paraguay":"Asunción","Perú":"Lima","Polonia":"Varsovia","Portugal":"Lisboa","Qatar":"Doha","Reino Unido":"Londres","Ruanda":"Kigali","Rumania":"Bucarest","Rusia":"Moscú","Islas Salomón":"Honiara","Samoa":"Apia","San Cristóbal y Nieves":"Basseterre","San Marino":"Ciudad de San Marino","Santa Lucía":"Castries","Santo Tomé y Príncipe":"Santo Tomé","San Vicente y las Granadinas":"Kingstown","Senegal":"Dakar","Serbia":"Belgrado","Seychelles":"Victoria","Sierra Leona":"Freetown","Singapur":"Singapur","Siria":"Damasco","Somalia":"Mogadiscio","Sri Lanka":"Sri Jayawardenapura Kotte","Suazilandia":"Mbabane","Sudáfrica":"Ciudad del Cabo","Sudán":"Jartum","Suecia":"Estocolmo","Suiza":"Berna","Surinam":"Paramaribo","Tailandia":"Bangkok","Tanzania":"Dodoma","Tayikistán":"Dusambé","Timor Oriental":"Dili","Togo":"Lomé","Tonga":"Nukualofa","Trinidad y Tobago":"Puerto España","Túnez":"Túnez","Turkmenistán":"Asjabad","Turquía":"Ankara","Tuvalu":"Funafuti","Ucrania":"Kiev","Uruguay":"Montevideo","Uzbekistán":"Taskent","Vanuatu":"Port Vila","Ciudad del Vaticano":"Ciudad del Vaticano","Venezuela":"Caracas","Vietnam":"Hanói","Yemen":"Saná","Yibuti":"Yibuti","Zambia":"Lusaka","Zimbabue":"Harare"};
 
 const shuffle = function(array){
   var m = array.length, t, i;
@@ -42,7 +41,7 @@ const shuffle = function(array){
 }
 
 const Memoria = (props) => {
-  const data = props.data;
+  const {data} = props;
   const paises = Object.keys(props.data);
   const capitales = Object.values(props.data);
   const sp = shuffle(paises);
@@ -53,8 +52,12 @@ const Memoria = (props) => {
   let x = ''
   let y = ''
   let find = false;
+  const[total, setTotal] = useState(0)
+  const[finish , setFinish] = useState(false);
     const clickbutton = (event) => {
       //change to color red
+
+    
       
       document.getElementById(event.target.id).classList.add('myButtonred');
       document.getElementById(event.target.id).classList.remove('myButton');
@@ -81,7 +84,11 @@ const Memoria = (props) => {
 
           }
           if(find){
-            
+            setTotal( total + 1);
+            if( paises.length -1 === total){
+              console.log('has llegado al final')
+              setFinish(true)  ;
+            }
             document.getElementById(x).style.display = "none";
             document.getElementById(y).style.display = "none";
             x = ''
@@ -98,9 +105,27 @@ const Memoria = (props) => {
             y = ''
           }
         }
+        
+       
     }
   return(
   <>
+  <div className="col-12">
+  <h1> Memorama paises aciertos: {total}</h1>
+  </div>
+  <div className="col-12">
+  {finish == true &&
+    <div>
+    <div className="checkmark-circle">
+      <div className="background"></div>
+      <div className="checkmark draw"></div>
+    </div>
+    <h1>Felicidades!</h1>
+    <p>Has terminado el memorama. Bien Hecho!</p>
+
+  </div>   
+  }
+  </div>
   <div className="col-6">
     <h1>paises</h1>
     {paises.map(pais => <button className="myButton"  key={pais} id={pais} onClick={clickbutton}>{pais}</button>)}
@@ -116,22 +141,18 @@ const Memoria = (props) => {
   return (
     <>
     <div className="container-fluid text-center">
-   <h1> Memorama paises </h1>
-    <div className="row">
+      <div className="row">
         <Memoria data={data} />
         </div>
     </div>
-<div className="App">
-<header className="App-header">
-         <h1>{counter}</h1>
-<button href="#" onClick={click}>add number</button>
-<button href="#" onClick={reset}>reset number to 42</button>
-<button href="#" onClick={remove}>rm number</button>
-
-<Saludos name="rene" />
-
-
-      </header>
+    <div className="App">
+        <header className="App-header">
+            <h1>{counter}</h1>
+            <button href="#" onClick={click}>add number</button>
+            <button href="#" onClick={reset}>reset number to 42</button>
+            <button href="#" onClick={remove}>rm number</button>
+            <Saludos name="rene" />
+        </header>
       
     </div>
     </>
